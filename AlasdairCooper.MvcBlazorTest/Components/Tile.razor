@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Components;
+@using Microsoft.AspNetCore.Components.Web;
+
+
+<div style="width: 150px; height: 150px">
+    <h3>Counter</h3>
+    <p>Current count: @CurrentCount</p>
+    <button @onclick="IncrementCount">Click me</button>
+</div>
+
+@code {
+    [Parameter]
+    public int CurrentCount { get; set; } = 0;
+
+    private void IncrementCount()
+    {
+        CurrentCount++;
+    }
+}

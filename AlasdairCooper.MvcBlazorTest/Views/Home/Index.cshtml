@@ -1,0 +1,16 @@
+﻿@using AlasdairCooper.MvcBlazorTest.Components;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <div class="d-flex flex-wrap" style="width: 900px">
+        @for (int i = 0; i < 36; i++)
+        {
+            @(await Html.RenderComponentAsync<Tile>(RenderMode.ServerPrerendered, new { CurrentCount = i}))
+        }
+    </div>
+</div>
