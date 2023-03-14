@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlasdairCooper.MvcBlazorTest", "AlasdairCooper.MvcBlazorTest\AlasdairCooper.MvcBlazorTest.csproj", "{5B5E9B06-4AD4-47F3-8DE2-D72C85C0E0BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlasdairCooper.MvcBlazorTest", "AlasdairCooper.MvcBlazorTest\AlasdairCooper.MvcBlazorTest.csproj", "{5B5E9B06-4AD4-47F3-8DE2-D72C85C0E0BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

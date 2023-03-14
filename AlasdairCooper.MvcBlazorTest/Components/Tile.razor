@@ -1,12 +1,12 @@
 ﻿@using Microsoft.AspNetCore.Components;
 @using Microsoft.AspNetCore.Components.Web;
+@using MudBlazor;
 
-
-<div style="width: 150px; height: 150px">
+<MudCard Style="width: 150px; height: 150px" Class="m-2 p-2">
     <h3>Counter</h3>
     <p>Current count: @CurrentCount</p>
-    <button @onclick="IncrementCount">Click me</button>
-</div>
+    <MudButton OnClick="IncrementCount">Click me</MudButton>
+</MudCard>
 
 @code {
     [Parameter]
